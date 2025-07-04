@@ -2,6 +2,7 @@ package me.ScarletLeaf1000.arciniteMod.datagen;
 
 import me.ScarletLeaf1000.arciniteMod.ArciniteMod;
 import me.ScarletLeaf1000.arciniteMod.block.ModBlocks;
+import me.ScarletLeaf1000.arciniteMod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -31,5 +32,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ARCINITE_REFINERY.get())
                 .add(ModBlocks.ARCINITE_BLOCK.get());
+
+        tag(ModTags.Blocks.NEEDS_ARCINITE_TOOL)
+                .addTags(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_ARCINITE_TOOL)
+                .addTags(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ARCINITE_TOOL);
     }
 }

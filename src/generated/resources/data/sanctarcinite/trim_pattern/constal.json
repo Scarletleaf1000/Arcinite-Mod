@@ -1,0 +1,8 @@
+{
+  "asset_id": "sanctarcinite:constal",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.sanctarcinite.constal"
+  },
+  "template_item": "sanctarcinite:constal_smithing_template"
+}

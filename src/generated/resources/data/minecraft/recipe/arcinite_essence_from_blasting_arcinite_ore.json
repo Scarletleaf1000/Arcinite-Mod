@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 4.0,
+  "group": "arcinite_ore",
+  "ingredient": {
+    "item": "sanctarcinite:arcinite_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "sanctarcinite:arcinite_essence"
+  }
+}

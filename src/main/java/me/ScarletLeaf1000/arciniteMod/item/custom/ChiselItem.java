@@ -1,5 +1,6 @@
 package me.ScarletLeaf1000.arciniteMod.item.custom;
 
+import me.ScarletLeaf1000.arciniteMod.component.ModDataComponent;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -50,6 +51,7 @@ public class ChiselItem extends Item {
 
                 level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
 
+                context.getItemInHand().set(ModDataComponent.COORDINATES, context.getClickedPos());
             }
         }
 
@@ -63,6 +65,10 @@ public class ChiselItem extends Item {
 
         }else{
             tooltipComponents.add(Component.translatable("tooltip.sanctarcinite.needs_shift.tooltip"));
+        }
+
+        if (stack.get(ModDataComponent.COORDINATES) != null){
+            tooltipComponents.add(Component.literal("Last block changed at " + stack.get(ModDataComponent.COORDINATES).toShortString()));
         }
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

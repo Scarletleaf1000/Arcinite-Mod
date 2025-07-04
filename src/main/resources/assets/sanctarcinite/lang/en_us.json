@@ -2,7 +2,20 @@
   "item.sanctarcinite.arcinite_essence": "Arcinite Essence",
   "item.sanctarcinite.arcinite_ingot": "Arcinite Ingot",
   "item.sanctarcinite.arcinite_flame": "Arcinite Flame",
+  "item.sanctarcinite.constal_smithing_template": "Constal Armor Trim",
+
   "item.sanctarcinite.arcinite_chisel": "Arcinite Chisel",
+  "item.sanctarcinite.arcinite_sword": "Arcinite Sword",
+  "item.sanctarcinite.arcinite_pickaxe": "Arcinite Pickaxe",
+  "item.sanctarcinite.arcinite_axe": "Arcinite Axe",
+  "item.sanctarcinite.arcinite_shovel": "Arcinite Shovel",
+  "item.sanctarcinite.arcinite_hoe": "Arcinite Hoe",
+  "item.sanctarcinite.arcinite_hammer": "Arcinite Hammer",
+
+  "item.sanctarcinite.arcinite_helmet": "Arcinite Helmet",
+  "item.sanctarcinite.arcinite_chestplate": "Arcinite Chestplate",
+  "item.sanctarcinite.arcinite_leggings": "Arcinite Leggings",
+  "item.sanctarcinite.arcinite_boots": "Arcinite Boots",
 
   "block.sanctarcinite.arcinite_block": "Block of Arcinite",
   "block.sanctarcinite.arcinite_ore": "Arcinite Ore",
@@ -11,6 +24,7 @@
   "block.sanctarcinite.arcinite_lamp": "Arcinite Lamp",
 
   "tooltip.sanctarcinite.arcinite_refinery.tooltip": "§7Right click while holding §bArcinite Essence§7 to refine it into an ingot.",
+  "tooltip.sanctarcinite.arcinite_armor.tooltip": "§7Wear a full set to receive additional speed.",
   "tooltip.sanctarcinite.arcinite_lamp.tooltip": "§7Right click to toggle light.",
   "tooltip.sanctarcinite.arcinite_essence.tooltip": "§bArcinite§7 in it's purest form.",
   "tooltip.sanctarcinite.arcinite_ingot.tooltip": "§bArcinite§7 refined into an ingot.",
@@ -19,5 +33,8 @@
 
   "tooltip.sanctarcinite.needs_shift.tooltip": "Hold §eRight Shift §rto see more information",
 
-  "creativetab.sanctarcinite.arcinite_items": "Arcinite Items"
+  "creativetab.sanctarcinite.arcinite_items": "Arcinite Items",
+
+  "trim_pattern.sanctarcinite.constal": "Constal Armor Trim",
+  "trim_material.sanctarcinite.arcinite": "Arcinite Material"
 }

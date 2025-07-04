@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "sanctarcinite:block/arcinite_lamp_off"
+    },
+    "clicked=true": {
+      "model": "sanctarcinite:block/arcinite_lamp_on"
+    }
+  }
+}

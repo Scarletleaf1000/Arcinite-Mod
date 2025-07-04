@@ -1,10 +1,12 @@
 package me.ScarletLeaf1000.arciniteMod.datagen;
 
+import me.ScarletLeaf1000.arciniteMod.ArciniteMod;
 import me.ScarletLeaf1000.arciniteMod.block.ModBlocks;
 import me.ScarletLeaf1000.arciniteMod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
@@ -34,5 +36,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, ARCINITE_SMELTABLES, RecipeCategory.MISC, ModItems.ARCINITE_ESSENCE, 4f, 200, "arcinite_ore");
         oreBlasting(recipeOutput, ARCINITE_SMELTABLES, RecipeCategory.MISC, ModItems.ARCINITE_ESSENCE, 4f, 100, "arcinite_ore");
+
+        trimSmithing(recipeOutput, ModItems.CONSTAL_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(ArciniteMod.MOD_ID, "constal"));
     }
 }

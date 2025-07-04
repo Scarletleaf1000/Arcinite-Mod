@@ -1,0 +1,10 @@
+// 1.21.1	2025-07-04T14:43:37.7893387	Tags for minecraft:item mod id sanctarcinite
+208cccc7b887f37d19138ea04578942ab60f8978 data/minecraft/tags/item/axes.json
+a6d38849f7ca6add800afe3d4653d405f4cf0a2a data/minecraft/tags/item/enchantable/armor.json
+f96b7df8d7f9e4e65f38703a38ce07357a9dcb03 data/minecraft/tags/item/hoes.json
+dfe2b9de71db9687a76987be4bdaa854555e8f70 data/minecraft/tags/item/pickaxes.json
+ba781fd381df748d753433b7ae9504a1f035da85 data/minecraft/tags/item/shovels.json
+171b5fd5999672448f732d490e75141472fb3f26 data/minecraft/tags/item/swords.json
+a6d38849f7ca6add800afe3d4653d405f4cf0a2a data/minecraft/tags/item/trimmable_armor.json
+fe35eb528177eadfbf42ebfeed735d4618b77808 data/minecraft/tags/item/trim_materials.json
+18bf28942fbcb85399cedf2cf9656a6f9aaf15f4 data/minecraft/tags/item/trim_templates.json

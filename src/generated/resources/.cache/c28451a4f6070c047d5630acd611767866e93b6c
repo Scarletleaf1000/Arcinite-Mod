@@ -1,0 +1,6 @@
+// 1.21.1	2025-07-03T22:46:07.7576697	Tags for minecraft:block mod id sanctarcinite
+cca3a6840f96426f132bba539fef08f605137d59 data/minecraft/tags/block/mineable/pickaxe.json
+916658fcb5db5de2445bc07d65b071f03190f641 data/minecraft/tags/block/needs_diamond_tool.json
+e068e3454646a04adda89fd392582ea2274de518 data/minecraft/tags/block/needs_stone_tool.json
+c674525c67642a5c04fdbc694513e0f4b034a75d data/sanctarcinite/tags/block/incorrect_for_arcinite_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/sanctarcinite/tags/block/needs_arcinite_tool.json

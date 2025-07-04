@@ -26,8 +26,20 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.ARCINITE_ESSENCE);
                         output.accept(ModItems.ARCINITE_INGOT);
                         output.accept(ModItems.ARCINITE_FLAME);
+                        output.accept(ModItems.CONSTAL_SMITHING_TEMPLATE);
 
                         output.accept(ModItems.ARCINITE_CHISEL);
+                        output.accept(ModItems.ARCINITE_SWORD);
+                        output.accept(ModItems.ARCINITE_PICKAXE);
+                        output.accept(ModItems.ARCINITE_AXE);
+                        output.accept(ModItems.ARCINITE_SHOVEL);
+                        output.accept(ModItems.ARCINITE_HOE);
+                        output.accept(ModItems.ARCINITE_HAMMER);
+
+                        output.accept(ModItems.ARCINITE_HELMET);
+                        output.accept(ModItems.ARCINITE_CHESTPLATE);
+                        output.accept(ModItems.ARCINITE_LEGGINGS);
+                        output.accept(ModItems.ARCINITE_BOOTS);
 
                         output.accept(ModBlocks.ARCINITE_ORE);
                         output.accept(ModBlocks.DEEPSLATE_ARCINITE_ORE);
