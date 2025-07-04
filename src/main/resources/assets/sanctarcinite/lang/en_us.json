@@ -1,0 +1,23 @@
+{
+  "item.sanctarcinite.arcinite_essence": "Arcinite Essence",
+  "item.sanctarcinite.arcinite_ingot": "Arcinite Ingot",
+  "item.sanctarcinite.arcinite_flame": "Arcinite Flame",
+  "item.sanctarcinite.arcinite_chisel": "Arcinite Chisel",
+
+  "block.sanctarcinite.arcinite_block": "Block of Arcinite",
+  "block.sanctarcinite.arcinite_ore": "Arcinite Ore",
+  "block.sanctarcinite.deepslate_arcinite_ore": "Deepslate Arcinite Ore",
+  "block.sanctarcinite.arcinite_refinery": "Arcinite Refinery",
+  "block.sanctarcinite.arcinite_lamp": "Arcinite Lamp",
+
+  "tooltip.sanctarcinite.arcinite_refinery.tooltip": "§7Right click while holding §bArcinite Essence§7 to refine it into an ingot.",
+  "tooltip.sanctarcinite.arcinite_lamp.tooltip": "§7Right click to toggle light.",
+  "tooltip.sanctarcinite.arcinite_essence.tooltip": "§bArcinite§7 in it's purest form.",
+  "tooltip.sanctarcinite.arcinite_ingot.tooltip": "§bArcinite§7 refined into an ingot.",
+  "tooltip.sanctarcinite.arcinite_flame.tooltip": "§7Mystical flames burning with §bArcinite's§7 power.",
+  "tooltip.sanctarcinite.arcinite_chisel.tooltip": "§7Right click on a block to chisel it, §dcreative§7 only",
+
+  "tooltip.sanctarcinite.needs_shift.tooltip": "Hold §eRight Shift §rto see more information",
+
+  "creativetab.sanctarcinite.arcinite_items": "Arcinite Items"
+}
