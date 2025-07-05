@@ -35,6 +35,7 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.ARCINITE_SHOVEL);
                         output.accept(ModItems.ARCINITE_HOE);
                         output.accept(ModItems.ARCINITE_HAMMER);
+                        output.accept(ModItems.ARCINITE_BOW);
 
                         output.accept(ModItems.ARCINITE_HELMET);
                         output.accept(ModItems.ARCINITE_CHESTPLATE);

@@ -2,8 +2,11 @@ package me.ScarletLeaf1000.arciniteMod;
 
 import me.ScarletLeaf1000.arciniteMod.block.ModBlocks;
 import me.ScarletLeaf1000.arciniteMod.component.ModDataComponent;
+import me.ScarletLeaf1000.arciniteMod.effect.ModEffects;
 import me.ScarletLeaf1000.arciniteMod.item.ModCreativeModeTab;
 import me.ScarletLeaf1000.arciniteMod.item.ModItems;
+import me.ScarletLeaf1000.arciniteMod.potion.ModPotions;
+import me.ScarletLeaf1000.arciniteMod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -44,6 +47,11 @@ public class ArciniteMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         ModDataComponent.register(modEventBus);
 

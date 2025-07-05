@@ -11,6 +11,7 @@
   "item.sanctarcinite.arcinite_shovel": "Arcinite Shovel",
   "item.sanctarcinite.arcinite_hoe": "Arcinite Hoe",
   "item.sanctarcinite.arcinite_hammer": "Arcinite Hammer",
+  "item.sanctarcinite.arcinite_bow": "Arcinite Bow",
 
   "item.sanctarcinite.arcinite_helmet": "Arcinite Helmet",
   "item.sanctarcinite.arcinite_chestplate": "Arcinite Chestplate",
@@ -29,7 +30,21 @@
   "tooltip.sanctarcinite.arcinite_essence.tooltip": "§bArcinite§7 in it's purest form.",
   "tooltip.sanctarcinite.arcinite_ingot.tooltip": "§bArcinite§7 refined into an ingot.",
   "tooltip.sanctarcinite.arcinite_flame.tooltip": "§7Mystical flames burning with §bArcinite's§7 power.",
-  "tooltip.sanctarcinite.arcinite_chisel.tooltip": "§7Right click on a block to chisel it, §dcreative§7 only",
+  "tooltip.sanctarcinite.arcinite_chisel.tooltip": "§7Right click on a block to chisel it, §dCreative§7 only",
+  "tooltip.sanctarcinite.arcinite_chisel.tooltip": "§7Currently broken, unlikely to be implemented, §dCreative§7 only",
+
+  "effect.sanctarcinite.frenzied": "Frenzied",
+
+  "item.minecraft.potion.effect.frenzied_potion": "Potion of Frenzied",
+  "item.minecraft.splash_potion.effect.frenzied_potion": "Splash Potion of Frenzied",
+  "item.minecraft.lingering_potion.effect.frenzied_potion": "Lingering Potion of Frenzied",
+  "item.minecraft.potion.effect.frenzied_strong_potion": "Potion of Frenzied",
+  "item.minecraft.splash_potion.effect.frenzied_strong_potion": "Splash Potion of Frenzied",
+  "item.minecraft.lingering_potion.effect.frenzied_strong_potion": "Lingering Potion of Frenzied",
+  "item.minecraft.potion.effect.frenzied_long_potion": "Potion of Frenzied",
+  "item.minecraft.splash_potion.effect.frenzied_long_potion": "Splash Potion of Frenzied",
+  "item.minecraft.lingering_potion.effect.frenzied_long_potion": "Lingering Potion of Frenzied",
+
 
   "tooltip.sanctarcinite.needs_shift.tooltip": "Hold §eRight Shift §rto see more information",
 

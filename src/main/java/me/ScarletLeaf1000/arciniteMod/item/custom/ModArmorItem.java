@@ -1,6 +1,8 @@
 package me.ScarletLeaf1000.arciniteMod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import me.ScarletLeaf1000.arciniteMod.effect.FrenziedEffect;
+import me.ScarletLeaf1000.arciniteMod.effect.ModEffects;
 import me.ScarletLeaf1000.arciniteMod.item.ModArmorMaterials;
 import net.minecraft.core.Holder;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -20,7 +22,8 @@ public class ModArmorItem extends ArmorItem {
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())
                     .put(ModArmorMaterials.ARCINITE_ARMOR_MATERIAL,
                             List.of(
-                                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 1, true, true)
+                                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 1, true, true),
+                                    new MobEffectInstance(ModEffects.FRENZIED_EFFECT, 100, 1, true, true)
 
                             )).build();
 

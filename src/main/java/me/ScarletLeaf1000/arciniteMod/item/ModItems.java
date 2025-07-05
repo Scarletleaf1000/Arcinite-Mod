@@ -8,11 +8,14 @@ import me.ScarletLeaf1000.arciniteMod.item.custom.ModArmorItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
 public class ModItems {
@@ -82,6 +85,44 @@ public class ModItems {
     public static final DeferredItem<HammerItem> ARCINITE_HAMMER = ITEMS.register("arcinite_hammer",
             () -> new HammerItem(ModToolTiers.ARCINITE_HAMMER, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ARCINITE_HAMMER, 7, -3.1f))));
+    public static final DeferredItem<Item> ARCINITE_BOW = ITEMS.register("arcinite_bow",
+            () -> new BowItem(new Item.Properties()
+                    .durability(1100)) {
+                @Override
+                public int getDefaultProjectileRange() {
+                    return 50;
+                }
+
+                @Override
+                protected void shootProjectile(
+                        LivingEntity shooter, Projectile projectile, int index, float velocity, float inaccuracy, float angle, @Nullable LivingEntity target
+                ) {
+                    projectile.shootFromRotation(shooter, shooter.getXRot(), shooter.getYRot() + angle, 0.0F, velocity, inaccuracy);
+                }
+
+                /**
+                 * Gets the velocity of the arrow entity from the bow's charge
+                 */
+                public static float getPowerForTime(int charge) {
+                    float f = (float)charge / 20.0F;
+                    f = (f * f + f * 2.0F) / 3.0F;
+                    if (f > 1.0F) {
+                        f = 1.0F;
+                    }
+
+                    return f * 2.5F;
+                }
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    if (Screen.hasShiftDown()){
+                        tooltipComponents.add(Component.translatable("tooltip.sanctarcinite.arcinite_bow.tooltip"));
+
+                    }else{
+                        tooltipComponents.add(Component.translatable("tooltip.sanctarcinite.needs_shift.tooltip"));
+                    }
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     public static final DeferredItem<ArmorItem> ARCINITE_HELMET = ITEMS.register("arcinite_helmet",
             () -> new ModArmorItem(ModArmorMaterials.ARCINITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
@@ -135,6 +176,8 @@ public class ModItems {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+
+
 
 
     public static void register(IEventBus eventBus) {

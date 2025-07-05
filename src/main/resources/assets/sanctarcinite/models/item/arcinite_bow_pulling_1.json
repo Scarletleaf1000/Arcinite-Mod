@@ -1,0 +1,6 @@
+{
+  "parent": "sanctarcinite:item/arcinite_bow",
+  "textures": {
+    "layer0": "sanctarcinite:item/arcinite_bow_pulling_1"
+  }
+}

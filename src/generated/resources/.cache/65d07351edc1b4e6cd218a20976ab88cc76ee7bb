@@ -1,6 +1,7 @@
-// 1.21.1	2025-07-04T14:43:37.7893387	Tags for minecraft:item mod id sanctarcinite
+// 1.21.1	2025-07-04T16:17:30.1282649	Tags for minecraft:item mod id sanctarcinite
 208cccc7b887f37d19138ea04578942ab60f8978 data/minecraft/tags/item/axes.json
 a6d38849f7ca6add800afe3d4653d405f4cf0a2a data/minecraft/tags/item/enchantable/armor.json
+6cd831a5a994252d96ee636351d61e52000b8d5a data/minecraft/tags/item/enchantable/bow.json
 f96b7df8d7f9e4e65f38703a38ce07357a9dcb03 data/minecraft/tags/item/hoes.json
 dfe2b9de71db9687a76987be4bdaa854555e8f70 data/minecraft/tags/item/pickaxes.json
 ba781fd381df748d753433b7ae9504a1f035da85 data/minecraft/tags/item/shovels.json

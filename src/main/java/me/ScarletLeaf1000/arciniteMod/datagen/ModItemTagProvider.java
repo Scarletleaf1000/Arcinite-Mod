@@ -48,5 +48,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.ARCINITE_INGOT.get());
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.CONSTAL_SMITHING_TEMPLATE.get());
+
+        this.tag(ItemTags.BOW_ENCHANTABLE)
+                .add(ModItems.ARCINITE_BOW.get());
     }
 }
