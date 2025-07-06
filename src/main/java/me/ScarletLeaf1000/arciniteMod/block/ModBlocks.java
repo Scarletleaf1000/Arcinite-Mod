@@ -4,6 +4,7 @@ package me.ScarletLeaf1000.arciniteMod.block;
 import me.ScarletLeaf1000.arciniteMod.ArciniteMod;
 import me.ScarletLeaf1000.arciniteMod.block.custom.ArciniteLampBlock;
 import me.ScarletLeaf1000.arciniteMod.block.custom.ArciniteRefineryBlock;
+import me.ScarletLeaf1000.arciniteMod.block.custom.PedestalBlock;
 import me.ScarletLeaf1000.arciniteMod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -39,17 +40,22 @@ public class ModBlocks {
                     .sound(SoundType.DEEPSLATE)
                     .strength(11.5f)
                     .requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> ARCINITE_REFINERY = registerBlock("arcinite_refinery",
-            () -> new ArciniteRefineryBlock(BlockBehaviour.Properties.of()
-                    .sound(SoundType.STONE)
-                    .strength(3f)
-                    .requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> ARCINITE_LAMP = registerBlock("arcinite_lamp",
             () -> new ArciniteLampBlock(BlockBehaviour.Properties.of()
                     .sound(SoundType.GLASS)
                     .strength(1.5f)
                     .lightLevel(state -> state.getValue(ArciniteLampBlock.CLICKED) ? 15 : 0)));
 
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            () -> new PedestalBlock(BlockBehaviour.Properties.of()
+                .sound(SoundType.STONE)
+                    .strength(3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ARCINITE_REFINERY = registerBlock("arcinite_refinery",
+            () -> new ArciniteRefineryBlock(BlockBehaviour.Properties.of()
+                    .sound(SoundType.STONE)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()));
 
 
 

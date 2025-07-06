@@ -2,6 +2,7 @@ package me.ScarletLeaf1000.arciniteMod.datagen;
 
 import me.ScarletLeaf1000.arciniteMod.ArciniteMod;
 import me.ScarletLeaf1000.arciniteMod.item.ModItems;
+import me.ScarletLeaf1000.arciniteMod.trim.ModTrimMaterials;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -29,6 +30,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimMaterials.put(TrimMaterials.EMERALD, 0.7F);
         trimMaterials.put(TrimMaterials.DIAMOND, 0.8F);
         trimMaterials.put(TrimMaterials.LAPIS, 0.9F);
+        trimMaterials.put(ModTrimMaterials.ARCINITE, 0.91F);
         trimMaterials.put(TrimMaterials.AMETHYST, 1.0F);
     }
 

@@ -56,6 +56,12 @@
       }
     },
     {
+      "model": "sanctarcinite:item/arcinite_boots_arcinite_trim",
+      "predicate": {
+        "minecraft:trim_type": 0.91
+      }
+    },
+    {
       "model": "sanctarcinite:item/arcinite_boots_amethyst_trim",
       "predicate": {
         "minecraft:trim_type": 1.0

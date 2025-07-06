@@ -48,6 +48,7 @@ public class ModCreativeModeTab {
 
                         output.accept(ModBlocks.ARCINITE_REFINERY);
                         output.accept(ModBlocks.ARCINITE_LAMP);
+                        output.accept(ModBlocks.PEDESTAL);
 
                     }).build());
 

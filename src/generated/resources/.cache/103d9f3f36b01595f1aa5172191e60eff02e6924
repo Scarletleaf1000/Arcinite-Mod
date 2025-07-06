@@ -1,3 +1,6 @@
-// 1.21.1	2025-07-04T14:43:37.779831	Registries
-c0b85c1959fb4f437d3317c4a73d2f20e800ab3b data/sanctarcinite/trim_material/arcinite.json
+// 1.21.1	2025-07-05T00:36:57.8247379	Registries
+7ce75a40daf7a8580c17fb83ab55d561d9759aed data/sanctarcinite/neoforge/biome_modifier/add_arcinite_ore.json
+8a881a4274b969aa52380364723351554171fe2b data/sanctarcinite/trim_material/arcinite.json
 3eb64cda4efaa73be8ec7f98beb4a54542001ca0 data/sanctarcinite/trim_pattern/constal.json
+ad25be8857ce104e50dabb6c871265b31ec67151 data/sanctarcinite/worldgen/configured_feature/arcinite_ore.json
+6319ce5344c06392780c7e48f0e8993db0966da4 data/sanctarcinite/worldgen/placed_feature/arcinite_ore_placed.json

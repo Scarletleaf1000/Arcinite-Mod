@@ -1,6 +1,7 @@
-// 1.21.1	2025-07-03T21:15:14.6123526	Loot Tables
+// 1.21.1	2025-07-05T01:21:01.0588182	Loot Tables
 e661501909281fdd1491a3dfe3ea6c6c649e5dde data/sanctarcinite/loot_table/blocks/arcinite_block.json
 187a407247fe9f25652b12a99c3bfa78bff769ce data/sanctarcinite/loot_table/blocks/arcinite_lamp.json
 3d08c37e9a36c478e07fab2088da2c67e9a6cc7f data/sanctarcinite/loot_table/blocks/arcinite_ore.json
 a749d229e10bccd644ad870e0740da76fbe23fbc data/sanctarcinite/loot_table/blocks/arcinite_refinery.json
 ae4bb2bd359ac5305a3f19787e9aa917df7c0233 data/sanctarcinite/loot_table/blocks/deepslate_arcinite_ore.json
+3bd72abea2b739382358cb367245af7b27d9f7ca data/sanctarcinite/loot_table/blocks/pedestal.json

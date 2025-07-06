@@ -23,6 +23,7 @@
   "block.sanctarcinite.deepslate_arcinite_ore": "Deepslate Arcinite Ore",
   "block.sanctarcinite.arcinite_refinery": "Arcinite Refinery",
   "block.sanctarcinite.arcinite_lamp": "Arcinite Lamp",
+  "block.sanctarcinite.pedestal": "Stone Pedestal",
 
   "tooltip.sanctarcinite.arcinite_refinery.tooltip": "§7Right click while holding §bArcinite Essence§7 to refine it into an ingot.",
   "tooltip.sanctarcinite.arcinite_armor.tooltip": "§7Wear a full set to receive additional speed.",
@@ -44,6 +45,9 @@
   "item.minecraft.potion.effect.frenzied_long_potion": "Potion of Frenzied",
   "item.minecraft.splash_potion.effect.frenzied_long_potion": "Splash Potion of Frenzied",
   "item.minecraft.lingering_potion.effect.frenzied_long_potion": "Lingering Potion of Frenzied",
+  "item.minecraft.tipped_arrow.effect.frenzied_potion": "Tipped Arrow of Frenzied",
+  "item.minecraft.tipped_arrow.effect.frenzied_long_potion": "Tipped Arrow of Frenzied",
+  "item.minecraft.tipped_arrow.effect.frenzied_strong_potion": "Tipped Arrow of Frenzied",
 
 
   "tooltip.sanctarcinite.needs_shift.tooltip": "Hold §eRight Shift §rto see more information",

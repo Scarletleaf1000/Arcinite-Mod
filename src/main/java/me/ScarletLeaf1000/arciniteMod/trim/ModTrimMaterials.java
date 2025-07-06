@@ -21,7 +21,7 @@ public class ModTrimMaterials {
             ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(ArciniteMod.MOD_ID, "arcinite"));
 
     public static void bootstrap(BootstrapContext<TrimMaterial> context) {
-        register(context, ARCINITE, ModItems.ARCINITE_INGOT.get(), Style.EMPTY.withColor(TextColor.parseColor("#345beb").getOrThrow()), 0.5F);
+        register(context, ARCINITE, ModItems.ARCINITE_INGOT.get(), Style.EMPTY.withColor(TextColor.parseColor("#345beb").getOrThrow()), 0.91F);
     }
 
     private static void register(BootstrapContext<TrimMaterial> context, ResourceKey<TrimMaterial> trimKey, Item item,

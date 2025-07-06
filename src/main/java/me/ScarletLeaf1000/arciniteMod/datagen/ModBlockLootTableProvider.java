@@ -29,6 +29,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ARCINITE_BLOCK.get());
         dropSelf(ModBlocks.ARCINITE_REFINERY.get());
         dropSelf(ModBlocks.ARCINITE_LAMP.get());
+        dropSelf(ModBlocks.PEDESTAL.get());
 
         add(ModBlocks.ARCINITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.ARCINITE_ORE.get(), ModItems.ARCINITE_ESSENCE.get()));

@@ -1,14 +1,20 @@
 package me.ScarletLeaf1000.arciniteMod;
 
 import me.ScarletLeaf1000.arciniteMod.block.ModBlocks;
+import me.ScarletLeaf1000.arciniteMod.block.entity.ModBlockEntities;
+import me.ScarletLeaf1000.arciniteMod.block.entity.renderer.PedestalBlockEntityRenderer;
 import me.ScarletLeaf1000.arciniteMod.component.ModDataComponent;
 import me.ScarletLeaf1000.arciniteMod.effect.ModEffects;
 import me.ScarletLeaf1000.arciniteMod.item.ModCreativeModeTab;
 import me.ScarletLeaf1000.arciniteMod.item.ModItems;
 import me.ScarletLeaf1000.arciniteMod.potion.ModPotions;
+import me.ScarletLeaf1000.arciniteMod.screen.ModMenuTypes;
+import me.ScarletLeaf1000.arciniteMod.screen.custom.PedestalScreen;
 import me.ScarletLeaf1000.arciniteMod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -47,11 +53,14 @@ public class ArciniteMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         ModDataComponent.register(modEventBus);
 
@@ -85,6 +94,16 @@ public class ArciniteMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+        }
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers e){
+            e.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
         }
     }
 }
