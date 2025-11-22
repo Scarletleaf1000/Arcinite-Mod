@@ -26,4 +26,5 @@ NeoForged Discord: https://discord.neoforged.net/
 
 ## Licensing
 
-The license for the NeoForge provided template files can be found at [TEMPLATE_LICENSE.txt](https://github.com/ScarletLeaf1000/Arcinite-Mod/blob/main/TEMPLATE_LICENSE.txt)
+The license for the NeoForge provided template files can be found at [TEMPLATE_LICENSE.txt](https://github.com/ScarletLeaf1000/Arcinite-Mod/blob/main/TEMPLATE_LICENSE.txt).
+The license for the project can be found at [LICENSE](https://github.com/ScarletLeaf1000/Arcinite-Mod/blob/main/LICENSE)
